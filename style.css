@@ -1,0 +1,18 @@
+
+.mybtn{
+    color: aliceblue;
+}
+#myform{
+    margin-top:20px;
+    display:flex;
+    padding: 5px;
+}
+.mylabel{
+    color: blue;
+    font-size: large;
+    font-weight: bold;
+    padding-right: 2px;
+}
+.testbtn{
+    margin-top: 20px;
+}
