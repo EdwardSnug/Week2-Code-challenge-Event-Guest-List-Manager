@@ -1,5 +1,9 @@
+//We start it off with creating a new empty array
+//our Array will be used to store our guest names
 let names = [];
+//Lets fetch our form using its ID specified in HTML boilerplate
 let form = document.getElementById("myform")
+//Lets fetch our ul element using its ID specified in HTML boilerplate
 let listy = document.getElementById("guestnames")
 
 form.addEventListener("submit", (e) => {
@@ -14,6 +18,7 @@ form.addEventListener("submit", (e) => {
     //Ensure there is valid input in our inputValue
     if (inputValue === ""){
         alert("Please Enter a valid guest name");
+        return;//Ensures that a non empty value is entered
     }
     names.push(inputValue);
     //create an li element to display our inputValues as a list
