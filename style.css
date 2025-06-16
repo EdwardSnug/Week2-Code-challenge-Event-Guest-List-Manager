@@ -1,11 +1,15 @@
-
-.mybtn{
-    color: aliceblue;
+body{
+    background-color:#fff;
 }
 #myform{
     margin-top:20px;
     display:flex;
     padding: 5px;
+    border: 1px solid black;
+    transition: all 0.4s ease;
+}
+#myform:hover{
+    box-shadow: 0 0 15px;
 }
 .mylabel{
     color: blue;
@@ -15,4 +19,20 @@
 }
 .testbtn{
     margin-top: 20px;
+}
+button{
+    cursor: pointer;
+    border: 2px black solid;
+    padding: 2px;
+    margin: 5px;
+    max-width:max-content;
+    transition: all 0.4s ease;
+
+} 
+button:hover{
+    box-shadow: 0 0 15px;
+}
+li{
+    list-style:decimal;
+    padding: 5px;
 }
